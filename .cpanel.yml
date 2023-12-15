@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/dinar397/public_html/coba1/
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp *.* $DEPLOYPATH
+    - /bin/cp -R $DEPLOYPATH
